@@ -1,0 +1,635 @@
+2013-08-10 07:14:18 Error: [NotFoundException] Invalid target
+Request URL: /targets/play
+Stack Trace:
+#0 [internal function]: TargetsController->play()
+#1 D:\webspace\cake2.3.0\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TargetsController), Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TargetsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-10 07:14:56 Error: [NotFoundException] Invalid target
+Request URL: /targets/play
+Stack Trace:
+#0 [internal function]: TargetsController->play()
+#1 D:\webspace\cake2.3.0\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TargetsController), Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TargetsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-11 09:48:23 Error: [NotFoundException] Invalid target
+Request URL: /targets/play
+Stack Trace:
+#0 [internal function]: TargetsController->play()
+#1 D:\webspace\cake2.3.0\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TargetsController), Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TargetsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-11 09:50:31 Error: [NotFoundException] Invalid target
+Request URL: /targets/play
+Stack Trace:
+#0 [internal function]: TargetsController->play()
+#1 D:\webspace\cake2.3.0\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TargetsController), Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TargetsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-11 10:46:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\webspace\target\Model\Target.php, line 67]
+2013-08-11 10:46:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /targets/play/1
+Stack Trace:
+#0 D:\webspace\cake2.3.0\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\webspace\tar...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\webspace\tar...', 67, Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\webspace\tar...', 67, Array)
+#3 D:\webspace\cake2.3.0\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-11 10:47:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Round.user_id' in 'where clause'
+Request URL: /targets/play/1
+Stack Trace:
+#0 D:\webspace\cake2.3.0\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 D:\webspace\cake2.3.0\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Target`...', Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Target`...', Array, Array)
+#3 D:\webspace\cake2.3.0\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Target`...', false)
+#4 D:\webspace\cake2.3.0\lib\Cake\Model\Model.php(2674): DboSource->read(Object(Target), Array)
+#5 D:\webspace\target\Model\Target.php(67): Model->find('first', Array)
+#6 D:\webspace\target\Controller\TargetsController.php(39): Target->getGame('1')
+#7 [internal function]: TargetsController->play('1')
+#8 D:\webspace\cake2.3.0\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TargetsController), Array)
+#9 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(TargetsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-08-11 12:45:42 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-11 13:09:45 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:09:58 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:10:18 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:10:37 Error: [MissingControllerException] Controller class Quant.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Quant.jsController',
+  'plugin' => NULL,
+)
+Request URL: /quant.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:19:18 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:19:33 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=cricket
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:38 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298383&r=www.cricwaves.com%2Fcricket%2Ftour%2F198%2Fthe-ashes-2013-14%2F4%2Fhonour%2Fplayer%2Fbowl%2Fwickets%2FStats.html&t=Player+Stats+Widget+-+8
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:38 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298383&r=www.cricwaves.com%2Fcricket%2Ftour%2F198%2Fthe-ashes-2013-14%2F4%2Fhonour%2Fplayer%2Fbowl%2Fwickets%2FStats.html
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:38 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298383
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298383
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298379&r=www.cricwaves.com%2Fcricket%2Ftour%2F198%2Fthe-ashes-2013-14%2F4%2Fhonour%2Fplayer%2Fbowl%2Fwickets%2FStats.html&t=www.cricwaves.com+--+f1_zd+Theme+Widget
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298381&r=mixlr.com%2Fredditcommentates%2Fchat&t=Highest%7CMost+Wicket+taker+in+The+Ashes+2013-14+Test%7CPlayer+Rankings%2C+Stats
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298379&r=www.cricwaves.com%2Fcricket%2Ftour%2F198%2Fthe-ashes-2013-14%2F4%2Fhonour%2Fplayer%2Fbowl%2Fwickets%2FStats.html
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298381&r=mixlr.com%2Fredditcommentates%2Fchat
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298379
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298381
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298379
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:21:39 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/p?id=w%213kecevh3hioc&ts=1376227298381
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:47:46 Error: [MissingControllerException] Controller class Quant.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Quant.jsController',
+  'plugin' => NULL,
+)
+Request URL: /quant.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 13:50:35 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\webspace\target\Config\bootstrap.php, line 49]
+2013-08-11 13:50:35 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /targets/play/1
+Stack Trace:
+#0 D:\webspace\cake2.3.0\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\webspace\tar...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\webspace\tar...', 49, Array)
+#2 D:\webspace\cake2.3.0\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\webspace\tar...', 49, Array)
+#3 D:\webspace\cake2.3.0\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-12 03:17:43 Error: [MissingControllerException] Controller class GptController could not be found.
+Exception Attributes: array (
+  'class' => 'GptController',
+  'plugin' => NULL,
+)
+Request URL: /gpt/pubads_impl_25.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 03:17:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/250/addthis_widget.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 03:17:45 Error: [MissingControllerException] Controller class V60.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'V60.jsController',
+  'plugin' => NULL,
+)
+Request URL: /v60.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 03:17:45 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /b/ss/timeoutausydneynew,timeoutau,timeoutworldwide/1/H.24.2/s36031187013722?AQB=1&ndh=1&t=12%2F7%2F2013+13%3A17%3A45+1+-600&ce=UTF-8&ns=timeoutcommunications&pageName=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&g=http%3A%2F%2Fwww.au.timeout.com%2Fsydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&r=https%3A%2F%2Fwww.google.com%2F&cc=AUD&ch=bars&server=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&events=event2&v2=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&c3=%2F7698&v3=%2F7698&c6=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights+%3A+undefined&v6=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights+%3A+undefined&c11=1%3A00PM&v11=1%3A00PM&c12=Monday&v12=Monday&c13=Weekday&v13=Weekday&c14=http%3A%2F%2Fwww.au.timeout.com%2Fsydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&c16=New&v16=New&c17=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&c39=First+Visit&v39=First+Visit&h1=%2FSydney%2Fbars%2Ffeatures%2F7698%2Fsydneys-best-pub-trivia-nights&s=1366x768&c=32&j=1.6&v=Y&k=Y&bw=1366&bh=643&p=Shockwave+Flash%3BChrome+Remote+Desktop+Viewer%3BNative+Client%3BChrome+PDF+Viewer%3BAdobe+Acrobat%3BMicrosoft%C2%AE+Windows+Media+Player+Firefox+Plugin%3BQuickTime+Plug-in+7.7.1%3BMicrosoft+Office+2010%3BPicasa%3BGoogle+Update%3BJava%28TM%29+Platform+SE+7+U4%3BWindows+Live%C2%99+Photo+Gallery%3BiTunes+Application+Detector%3BFacebook+Video+Calling+Plugin%3BJava+Deployment+Toolkit+7.0.40.255%3BShockwave+for+Director%3BSilverlight+Plug-In%3B&AQE=1
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 03:17:46 Error: [MissingControllerException] Controller class Beacon.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Beacon.jsController',
+  'plugin' => NULL,
+)
+Request URL: /beacon.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 03:17:47 Error: [MissingControllerException] Controller class Beacon.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Beacon.jsController',
+  'plugin' => NULL,
+)
+Request URL: /beacon.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 04:05:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/250/addthis_widget.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 04:05:01 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: /static/btn/sm-share-en.gif
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 06:54:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/300/addthis_widget.js?ver=3.5.2
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 06:55:56 Error: [MissingControllerException] Controller class CounterController could not be found.
+Exception Attributes: array (
+  'class' => 'CounterController',
+  'plugin' => NULL,
+)
+Request URL: /counter/frames.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:15:56 Error: [MissingControllerException] Controller class CounterController could not be found.
+Exception Attributes: array (
+  'class' => 'CounterController',
+  'plugin' => NULL,
+)
+Request URL: /counter/frames.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:16:08 Error: [MissingControllerException] Controller class CounterController could not be found.
+Exception Attributes: array (
+  'class' => 'CounterController',
+  'plugin' => NULL,
+)
+Request URL: /counter/frames.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:16:41 Error: [MissingControllerException] Controller class PController could not be found.
+Exception Attributes: array (
+  'class' => 'PController',
+  'plugin' => NULL,
+)
+Request URL: /p?s=792600102&t=2df5cf3e8bb615698d527c384cddb11b&r=http%3A%2F%2Fwww.brothers-brick.com%2F2009%2F01%2F25%2Fbreaking-even-sustaining-your-lego-building-hobby-through-selling-on-bricklink-editorial%2F&fl_ev=0&lang=en&intl=us
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:16:42 Error: [MissingControllerException] Controller class E-201331.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'E-201331.jsController',
+  'plugin' => NULL,
+)
+Request URL: /e-201331.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:20:30 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:20:44 Error: [MissingControllerException] Controller class E-201333.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'E-201333.jsController',
+  'plugin' => NULL,
+)
+Request URL: /e-201333.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:20:45 Error: [MissingActionException] Action AppController::geoip.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'geoip.js',
+)
+Request URL: /app/geoip.js?_=1376292044952
+Stack Trace:
+#0 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 D:\webspace\cake2.3.0\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-12 07:23:30 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/aclk?sa=L&ai=Ct0ayaI0IUu3NM6GXmQWG3YGoC-irwY4E2LvO8F6L9c_AAQgAEAFQhLqb6QZgpfiIgIwBoAGE8tbqA8gBAakCzTUiGlHhrj6qBCZP0FC6t-hr3mGDxHJrJwGla5pUHU5FolDQjJ1RXZuZPVK5hJDFl4AH5I2pFQ&ved=0CC8Q0Qw&val=ChAwOWYwOWIwZDQxYTY2MzJlEK678vQEGgiKGyvVGNaXoCABKAAw3s-wgp3j2chROKm78vQEQJTjoZAF&sig=AOD64_3T5USIgQ_OjLZ2AHnTKuZ860YQqg&adurl=http%3A%2F%2Fdicksmith.com.au%2Fcomputers%2Fapple-computers
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:23:31 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/aclk?sa=L&ai=BRDSGaI0IUu3NM6GXmQWG3YGoC4Xv2e4DxfnQkGLQldTinwHgmBcIBRADKAUwADgAUKe4z_kGYKX4iICMAaABk4KW-gPIAQeAAgGpAs01IhpR4a4-yALlm6wv2QO4hnEpyOOv-6gFlb4BwAUFoAYm4AbVn5cFgAfV_ekF4BKZ6Y7xv9bokE0&ctype=5&ved=0CEoQwg8&val=ChAwOWYwOWIwZDQxYTY2MzJlEK678vQEGgiKGyvVGNaXoCABKAAw3s-wgp3j2chROKm78vQEQJTjoZAF&sig=AOD64_2z5CT6aA1sai3UiSh1eh3AXCO8cw&adurl=http%3A%2F%2Fwww.kogan.com%2Fau%2Fbuy%2Fapple-macbook-pro-13-retina-display-me662-26ghz-i5-256gb%2F%3Futm_source%3Dgoogle%26utm_medium%3Dproduct_listing_ads
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:23:49 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/conversion.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:23:49 Error: [MissingControllerException] Controller class TrackController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackController',
+  'plugin' => NULL,
+)
+Request URL: /track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRyZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJ3d3cua29nYW4uY29tIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0MDcxNjhkMTIxNWI4LTAwNzZiNDg3My02NzExMTY3Ny0xMDAyMDAtMTQwNzE2OGQxMjI2NzUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogInd3dy5rb2dhbi5jb20iLCJtcF9wYWdlIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1Lz9hYj00JnV0bV9leHBpZD01OTcyOTk4Mi0wLm5DVm00RE1FU2h1RElndjBnMmxvOFEuNCZ1dG1fcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiIsIm1wX3JlZmVycmVyIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1LyIsIm1wX2Jyb3dzZXIiOiAiQ2hyb21lIiwibXBfcGxhdGZvcm0iOiAiV2luZG93cyIsInRva2VuIjogImE3MzdmZjI2YzJmOWRiMDQyMmFkNmMzNDkwNjAxZmUwIn19&ip=1&_=1376292229416
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:23:50 Error: [MissingControllerException] Controller class Re.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Re.jsController',
+  'plugin' => NULL,
+)
+Request URL: /re_.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:02 Error: [MissingControllerException] Controller class TrackController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackController',
+  'plugin' => NULL,
+)
+Request URL: /track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRyZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJ3d3cua29nYW4uY29tIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0MDcxNjhkMTIxNWI4LTAwNzZiNDg3My02NzExMTY3Ny0xMDAyMDAtMTQwNzE2OGQxMjI2NzUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogInd3dy5rb2dhbi5jb20iLCJtcF9wYWdlIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1Lz9hYj00JnV0bV9leHBpZD01OTcyOTk4Mi0wLm5DVm00RE1FU2h1RElndjBnMmxvOFEuNCIsIm1wX3JlZmVycmVyIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1LyIsIm1wX2Jyb3dzZXIiOiAiQ2hyb21lIiwibXBfcGxhdGZvcm0iOiAiV2luZG93cyIsInRva2VuIjogImE3MzdmZjI2YzJmOWRiMDQyMmFkNmMzNDkwNjAxZmUwIn19&ip=1&_=1376292242272
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:02 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/conversion.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:02 Error: [MissingControllerException] Controller class Re.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Re.jsController',
+  'plugin' => NULL,
+)
+Request URL: /re_.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:10 Error: [MissingControllerException] Controller class TrackController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackController',
+  'plugin' => NULL,
+)
+Request URL: /track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRyZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8%2FYWI9NCZ1dG1fZXhwaWQ9NTk3Mjk5ODItMC5uQ1ZtNERNRVNodURJZ3YwZzJsbzhRLjQiLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJ3d3cua29nYW4uY29tIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0MDcxNjhkMTIxNWI4LTAwNzZiNDg3My02NzExMTY3Ny0xMDAyMDAtMTQwNzE2OGQxMjI2NzUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogInd3dy5rb2dhbi5jb20iLCJtcF9wYWdlIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1L3Nob3AvdGFibGV0cy1sYXB0b3BzL2FwcGxlLW1hY2Jvb2stYWlyLyIsIm1wX3JlZmVycmVyIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1Lz9hYj00JnV0bV9leHBpZD01OTcyOTk4Mi0wLm5DVm00RE1FU2h1RElndjBnMmxvOFEuNCIsIm1wX2Jyb3dzZXIiOiAiQ2hyb21lIiwibXBfcGxhdGZvcm0iOiAiV2luZG93cyIsInRva2VuIjogImE3MzdmZjI2YzJmOWRiMDQyMmFkNmMzNDkwNjAxZmUwIn19&ip=1&_=1376292250519
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:10 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/conversion.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:10 Error: [MissingControllerException] Controller class Re.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Re.jsController',
+  'plugin' => NULL,
+)
+Request URL: /re_.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:46 Error: [MissingControllerException] Controller class TrackController could not be found.
+Exception Attributes: array (
+  'class' => 'TrackController',
+  'plugin' => NULL,
+)
+Request URL: /track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRyZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS9zaG9wL3RhYmxldHMtbGFwdG9wcy9hcHBsZS1tYWNib29rLWFpci8iLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJ3d3cua29nYW4uY29tIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0MDcxNjhkMTIxNWI4LTAwNzZiNDg3My02NzExMTY3Ny0xMDAyMDAtMTQwNzE2OGQxMjI2NzUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vd3d3LmtvZ2FuLmNvbS9hdS8iLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogInd3dy5rb2dhbi5jb20iLCJtcF9wYWdlIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1L2J1eS9hcHBsZS0xMS1tYWNib29rLWFpci0xN2doei1pNS02NGdiLyIsIm1wX3JlZmVycmVyIjogImh0dHA6Ly93d3cua29nYW4uY29tL2F1L3Nob3AvdGFibGV0cy1sYXB0b3BzL2FwcGxlLW1hY2Jvb2stYWlyLyIsIm1wX2Jyb3dzZXIiOiAiQ2hyb21lIiwibXBfcGxhdGZvcm0iOiAiV2luZG93cyIsInRva2VuIjogImE3MzdmZjI2YzJmOWRiMDQyMmFkNmMzNDkwNjAxZmUwIn19&ip=1&_=1376292286845
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:47 Error: [MissingControllerException] Controller class PageadController could not be found.
+Exception Attributes: array (
+  'class' => 'PageadController',
+  'plugin' => NULL,
+)
+Request URL: /pagead/conversion.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:24:48 Error: [MissingControllerException] Controller class Re.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Re.jsController',
+  'plugin' => NULL,
+)
+Request URL: /re_.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:25:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/250/addthis_widget.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:25:25 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:25:37 Error: [MissingControllerException] Controller class RedditController could not be found.
+Exception Attributes: array (
+  'class' => 'RedditController',
+  'plugin' => NULL,
+)
+Request URL: /reddit/ads.html?sr=+reddit.com
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:26:03 Error: [MissingControllerException] Controller class CController could not be found.
+Exception Attributes: array (
+  'class' => 'CController',
+  'plugin' => NULL,
+)
+Request URL: /c/313/cc.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:26:03 Error: [MissingControllerException] Controller class RController could not be found.
+Exception Attributes: array (
+  'class' => 'RController',
+  'plugin' => NULL,
+)
+Request URL: /r?c2=6035094&d_c=gif&d_o=conde-arstechnica&d_x=144989800&d_t=page&d_r=http%3A%2F%2Fwww.reddit.com%2Ftoolbar%2Finner%3Fid%3Dt3_1k6k57&d_u=http%3A%2F%2Farstechnica.com%2Fgaming%2F2013%2F08%2Fcapcom-re-issues-nes-ducktales-as-an-ultra-limited-golden-cartridge%2F
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:26:04 Error: [MissingControllerException] Controller class 4Controller could not be found.
+Exception Attributes: array (
+  'class' => '4Controller',
+  'plugin' => NULL,
+)
+Request URL: /4/pe=y%7Cc=244%7Cvar=CN.ad.lotame.tags%7Cout=json
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:27:41 Error: [MissingControllerException] Controller class RController could not be found.
+Exception Attributes: array (
+  'class' => 'RController',
+  'plugin' => NULL,
+)
+Request URL: /r?c2=6035094&d_c=gif&d_o=conde-arstechnica&d_x=79030800&d_t=page&d_r=http%3A%2F%2Farstechnica.com%2Fgaming%2F2013%2F08%2Fcapcom-re-issues-nes-ducktales-as-an-ultra-limited-golden-cartridge%2F&d_u=http%3A%2F%2Farstechnica.com%2Fgadgets%2F2013%2F08%2Fyou-get-the-dongle-you-pay-for-in-googles-chromecast%2F
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:27:42 Error: [MissingControllerException] Controller class 4Controller could not be found.
+Exception Attributes: array (
+  'class' => '4Controller',
+  'plugin' => NULL,
+)
+Request URL: /4/pe=y%7Cc=244%7Cvar=CN.ad.lotame.tags%7Cout=json
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-12 07:27:42 Error: [MissingControllerException] Controller class CController could not be found.
+Exception Attributes: array (
+  'class' => 'CController',
+  'plugin' => NULL,
+)
+Request URL: /c/313/cc.js
+Stack Trace:
+#0 D:\webspace\target\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-15 00:07:51 Error: [MissingControllerException] Controller class TargetController could not be found.
+Exception Attributes: array (
+  'class' => 'TargetController',
+  'plugin' => NULL,
+)
+Request URL: /target/
+Stack Trace:
+#0 /var/www/target/webroot/index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-16 10:33:22 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/target/Controller/TargetsController.php, line 46]
+2013-08-16 10:33:22 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /target/targets/play/15
+Stack Trace:
+#0 /etc/php5/lib/cake2.3.8/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/target...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/target...', 46, Array)
+#2 /etc/php5/lib/cake2.3.8/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/target...', 46, Array)
+#3 /etc/php5/lib/cake2.3.8/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
